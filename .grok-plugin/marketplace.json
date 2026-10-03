@@ -1,0 +1,22 @@
+{
+  "name": "scripting-blender-scenes",
+  "description": "Skill for scripting Blender scenes with a coding agent that can't see the viewport.",
+  "owner": {
+    "name": "aaddrick",
+    "url": "https://github.com/aaddrick"
+  },
+  "plugins": [
+    {
+      "name": "scripting-blender-scenes",
+      "description": "Skill for coding agents that build, rig, animate, light, simulate, scatter, export, and review Blender scenes through bpy scripts and headless Blender, without seeing the viewport.",
+      "version": "0.1.0",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aaddrick/scripting-blender-scenes.git"
+      },
+      "homepage": "https://github.com/aaddrick/scripting-blender-scenes",
+      "keywords": ["blender", "bpy", "headless blender"]
+    }
+  ]
+}

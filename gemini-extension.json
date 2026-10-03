@@ -1,0 +1,5 @@
+{
+  "name": "scripting-blender-scenes",
+  "version": "0.1.0",
+  "description": "Skill for coding agents that build, rig, animate, light, simulate, scatter, export, and review Blender scenes through bpy scripts and headless Blender, without seeing the viewport."
+}

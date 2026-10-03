@@ -1,0 +1,24 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "scripting-blender-scenes",
+  "description": "Skill for scripting Blender scenes with a coding agent that can't see the viewport.",
+  "owner": {
+    "name": "aaddrick",
+    "url": "https://github.com/aaddrick"
+  },
+  "plugins": [
+    {
+      "name": "scripting-blender-scenes",
+      "description": "Teaches the agent to measure the built, evaluated Blender scene over the real frames with checks proven to fail on the defect, and covers modeling, contact, rigging, animation, lighting, baking, game export, simulation, scatter, delivery, and bpy pitfalls.",
+      "source": "./",
+      "category": "development",
+      "keywords": [
+        "blender",
+        "bpy",
+        "3d",
+        "animation",
+        "rigging"
+      ]
+    }
+  ]
+}

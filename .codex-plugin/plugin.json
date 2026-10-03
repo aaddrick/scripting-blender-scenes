@@ -1,0 +1,39 @@
+{
+  "name": "scripting-blender-scenes",
+  "version": "0.1.0",
+  "description": "Skill for coding agents that build, rig, animate, light, simulate, scatter, export, and review Blender scenes through bpy scripts and headless Blender, without seeing the viewport.",
+  "author": {
+    "name": "aaddrick",
+    "url": "https://github.com/aaddrick"
+  },
+  "homepage": "https://github.com/aaddrick/scripting-blender-scenes",
+  "repository": "https://github.com/aaddrick/scripting-blender-scenes",
+  "license": "MIT",
+  "keywords": [
+    "blender",
+    "bpy",
+    "3d",
+    "animation",
+    "rigging",
+    "rendering",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Scripting Blender Scenes",
+    "shortDescription": "Build and check Blender scenes without the viewport",
+    "longDescription": "Script Blender scenes through bpy and headless Blender, then prove they work: measure the built, evaluated scene over the real frames, with checks proven to fail on the defect. Covers modeling, contact and clipping, rigging, animation, lighting, baking, game export, simulation, scatter, delivery, and bpy pitfalls.",
+    "developerName": "aaddrick",
+    "category": "Coding",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/aaddrick/scripting-blender-scenes",
+    "defaultPrompt": [
+      "Use scripting-blender-scenes to build this Blender scene with a bpy script and check it headless.",
+      "Check that the feet stay on the floor and nothing clips across the whole animation.",
+      "Review this Blender rig and export script against the skill's checks."
+    ],
+    "brandColor": "#E87D0D"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "scripting-blender-scenes",
+  "displayName": "Scripting Blender Scenes",
+  "version": "0.1.0",
+  "description": "Skill for coding agents that build, rig, animate, light, simulate, scatter, export, and review Blender scenes through bpy scripts and headless Blender, without seeing the viewport.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "scripting-blender-scenes",
+        "path": "skills/scripting-blender-scenes/SKILL.md"
+      }
+    ],
+    "commands": [],
+    "hooks": [],
+    "mcpServers": [],
+    "reminders": []
+  }
+}
