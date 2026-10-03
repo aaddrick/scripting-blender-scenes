@@ -50,3 +50,7 @@ python3 -m unittest discover -s tests -v
 ```
 
 The `plugin loads` workflow installs the plugin into a scratch config for each harness and checks that it finds the skill. It runs on pull requests that touch a manifest or the skill.
+
+## Social preview
+
+`scripts/make_card.py` renders `.github/assets/social-preview.png` in headless Blender and sets the type with Pillow. GitHub reads the preview only from **Settings > General > Social preview**, so upload the new PNG there by hand after you regenerate it.

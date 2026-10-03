@@ -13,7 +13,7 @@
   <a href="https://www.linkedin.com/in/aaddrick/">Connect on LinkedIn!</a>
 </p>
 
-A coding agent that drives Blender through `bpy` scripts and headless Blender has no viewport. It reports a fix as done because the script ran, the spec says so, or the rest pose looks right. Then the character's foot sinks through the floor on frame 140.
+Your coding agent can't see Blender's viewport. It works through `bpy` scripts and headless renders, so it calls a fix done because the script ran, the spec says so, or the rest pose looks right. Then the character's foot sinks through the floor on frame 140.
 
 This skill teaches the agent to measure the built, evaluated, world-space scene over the frames that matter, with checks it has seen fail on the defect. It covers modeling, contact and clipping, rigging, animation, lighting, baking, game export, simulation, scatter, delivery, and the `bpy` errors that waste the most time. It installs in Claude Code, Claude Desktop and claude.ai, Codex, Antigravity CLI, Cursor, Devin CLI, Factory Droid, Gemini CLI, GitHub Copilot CLI, Grok Build CLI, Hermes Agent, Kimi Code, OpenCode, Pi, Qwen Code, Muse, and Muse Code.
 
